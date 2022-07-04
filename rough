@@ -1,0 +1,19 @@
+/* git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://sharat9703: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@github.com/sharat9703/sharatprofile.git
+  git push -u origin main */
+  
+  token :-
+
+
+    echo "# sharat-profile" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://sharat9703: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@github.com/sharat9703/sharat-profile.git
+git push -u origin main
+
+https://sharat9703.github.io/sharat-profile/
