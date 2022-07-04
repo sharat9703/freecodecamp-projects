@@ -1,0 +1,89 @@
+
+ #title{
+    padding-top: 24px;
+ text-align : center;
+ }
+ body{
+   background-image: linear-gradient(
+       115deg,
+       rgba(58, 58, 158, 0.8),
+       rgba(136, 136, 206, 0.7)
+     ),
+     url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+ 
+   background-color : black;
+   color:white;
+ }
+ #description{
+   text-align: center;
+ }
+ #survey-form{
+   width : 80vw;
+   margin  : 0 auto;
+   padding-bottom :2em;
+   margin-bottom : 0px;
+   min-width : 200px;
+   max-width : 600px;
+   position : center;
+    
+ }
+ label{
+   margin : 1px ;
+   padding : 2px;
+   display : block;
+ }
+ input,textarea,select{
+   min-height:2em;
+   width: 100%;
+   margin : 8px 0 0 0;
+   padding : 1px;
+   height : 3px;
+ }
+ .inline{  
+   width : unset;
+ vertical-align: middle;
+   margin :0 0.5em 0 0;
+ }
+ fieldset{
+   padding: 40px;
+   margin : 15px;
+   font-size: 18px;
+   border : none;
+   background-color :rgba(144,123,200,0.6);
+   
+ }
+ #submit{
+   width : 100%;
+   
+   margin-top : 20px;
+   background-color :rgb(0,179,0);
+   color : white;
+   border-style: ridge ;
+   height : 44px;
+   
+ 
+ }
+ input[type="checkbox"]{
+   width:unset;
+   vertical-align : middle;
+   
+   margin : 0 0.5em 0 0;
+ 
+ }
+ p{
+   font-size : 18px;
+ }
+ #dropdown2{
+   margin-top:0px;
+ }
+ span{
+   font-size : 18px;
+ }
+ textarea{
+   height :unset;
+   padding:unset;
+   margin:unset;
+ }
