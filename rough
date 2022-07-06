@@ -13,9 +13,9 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://sharat9703: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@github.com/sharat9703/sharat-profile.git
+git remote add origin https://sharat9703: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@github.com/sharat9703/sharat-profile.git
 git push -u origin main
 
 https://sharat9703.github.io/sharat-profile/
 
-//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*/
+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
