@@ -1,0 +1,63 @@
+body {
+  background-color: white;
+  text-align: center;
+}
+#main {
+  background-color: #eee;
+  margin: 12px 12px 40px 12px;
+}
+#title {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 44px;
+}
+#description {
+  text-align: center;
+  padding-top: 25px;
+}
+
+#img-div {
+  background-color: white;
+  margin: 0 50px;
+  padding: 40px;
+  align-items: center;
+}
+
+#image {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  height: auto;
+}
+
+h3 {
+  text-align: center;
+}
+#tribute-info {
+  padding: 10px 80px 10px 80px;
+  text-align: left;
+}
+#PM-Quote {
+  font-style: italic;
+  margin: 0 35px 0 auto;
+  padding: 0 30%;
+  font-size: 16px;
+}
+ul {
+  min-width: 300px;
+  padding: 0 30%;
+  margin: 1px;
+}
+li {
+  margin: 33px;
+}
+#additional {
+  text-align: center;
+  margin-top: 65px;
+}
+#img-caption {
+  margin-top: 18px;
+}
+#tribute-link {
+  color: blue;
+}
