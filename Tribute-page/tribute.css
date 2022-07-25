@@ -1,9 +1,9 @@
 body {
-  background-color: white;
+  background-color:  #fff;
   text-align: center;
 }
 #main {
-  background-color: #eee;
+  background-color:#eee;
   margin: 12px 12px 40px 12px;
 }
 #title {
@@ -17,7 +17,7 @@ body {
 }
 
 #img-div {
-  background-color: white;
+  background-color:rgb(222, 225, 240);
   margin: 0 50px;
   padding: 40px;
   align-items: center;
@@ -57,6 +57,7 @@ li {
 }
 #img-caption {
   margin-top: 18px;
+  font-size: 16px;
 }
 #tribute-link {
   color: blue;

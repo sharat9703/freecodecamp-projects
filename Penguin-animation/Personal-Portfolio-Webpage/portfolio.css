@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+  color: azure;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  background-color: brown;
+  height: 75px;
+}
+.logo {
+  margin-left: 40px;
+  font-size: 28px;
+}
+#navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+  transition: transform 1s ease-out;
+  list-style-type: none;
+}
+#navbar a {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  padding-left: 40px;
+  color: azure;
+  font-size: large;
+}
+
+#welcome-section {
+  height: 100vh;
+  padding-top: 36vh;
+  transition: transform 2s ease-in-out;
+}
+#Main-head {
+  font-size: 65px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  padding: 5px 220px;
+  text-align: center;
+}
+#sub-head {
+  font-size: 28px;
+
+  text-align: center;
+  font-style: italic;
+
+  color: orange;
+}
+#projects {
+  height: 100vh;
+  transition: transform 1s ease-out;
+  padding: 13vh 10vw;
+}
+.project-tile {
+  margin-top: 10px;
+  margin-right: 20px;
+  height: 253px;
+  width: 383.9px;
+  float: left;
+  border: 1px solid white;
+}
+.project-image {
+  width: 100%;
+  height: fit-content;
+}
+
+.pro p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+#projects-heading {
+  text-align: center;
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+#work {
+  margin-bottom: 20px;
+}
+#contact {
+  height: 100vh;
+  transition: transform 1s ease-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mycontact h1 {
+  font-size: 64px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.mycontact p {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+#social {
+  width: fit-content;
+  margin-top: 0px;
+}
+footer {
+  color: white;
+  text-align: center;
+  border-top: 2px solid orange;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-tile:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 920px) {
+  #Main-head {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 740px) {
+  #Main-head {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 670px) {
+  #Main-head {
+    font-size: 20px;
+  }
+}
