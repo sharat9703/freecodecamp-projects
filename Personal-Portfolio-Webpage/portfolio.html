@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/fd15ff6187.js"
       crossorigin="anonymous"
     ></script>
+
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="./portfolio.css" />
   </head>
@@ -15,7 +16,9 @@
     <main id="main-section">
       <header id="header">
         <nav id="navbar">
-          <div class="logo"><strong>My-Logo</strong></div>
+          <div class="logo">
+            Portfolio Page<i class="fa-duotone fa-4x fa-bug"></i>
+          </div>
           <ul>
             <li><a class="nav-link" href="#welcome-section">About</a></li>
             <li><a class="nav-link" href="#projects">Work</a></li>
@@ -24,25 +27,33 @@
         </nav>
       </header>
       <section id="welcome-section">
+        <div id="My-image">
+          <img
+            id="my-image"
+            alt="Sharat's Photo"
+            src="MyPhoto.jpg"
+            title="Sharat's Photo"
+          />
+        </div>
         <div id="about">
           <h1 id="Main-head">Hey I am Sharat</h1>
-          <p id="sub-head">I am a web developer</p>
+          <p id="sub-head">I am a Full Stack Developer</p>
         </div>
       </section>
 
       <section id="projects">
+        <h1 id="projects-heading">These are some of my Projects</h1>
+        <hr />
         <div id="work">
-          <h1 id="projects-heading">These are some of my Projects</h1>
-          <hr />
           <div class="project-tile">
             <a
               id="project-link"
-              href="https://codepen.io/sharat9703/full/rNdzNRw"
+              href="https://codepen.io/sharat9703/full/zYWdwgv"
               target="_blank"
               ><figure class="pro">
                 <img
                   class="project-image"
-                  src="https://shots.codepen.io/sharat9703/pen/rNdzNRw-800.jpg"
+                  src="https://shots.codepen.io/sharat9703/pen/zYWdwgv-800.jpg?version=1658746554"
                   alt="Survey Form"
                 />
               </figure>
@@ -52,12 +63,12 @@
           <div class="project-tile">
             <a
               id="project-link"
-              href="https://codepen.io/sharat9703/full/NWYvqry"
+              href="https://codepen.io/sharat9703/full/PoRKjYe"
               target="_blank"
               ><figure class="pro">
                 <img
                   class="project-image"
-                  src="https://shots.codepen.io/sharat9703/pen/NWYvqry-800.jpg"
+                  src="https://shots.codepen.io/sharat9703/pen/PoRKjYe-800.jpg?version=1658746694"
                   alt="Tribute Page"
                 />
               </figure>
@@ -87,7 +98,7 @@
               ><figure class="pro">
                 <img
                   class="project-image"
-                  src="https://shots.codepen.io/sharat9703/pen/OJvjVQz-800.jpg"
+                  src="https://shots.codepen.io/sharat9703/pen/qBoXmGa-800.jpg?version=1658746315"
                   alt="Product Landing Page"
                 />
               </figure>
@@ -140,7 +151,7 @@
             target="_blank"
             id="profile-link"
             ><figure class="social">
-              <i class="fa fa-4x fa-github-square" aria-hidden="true"></i>
+              <em class="fa fa-4x fa-github-square"></em>
               <figcaption>
                 <span><strong>GitHub</strong></span>
               </figcaption>
