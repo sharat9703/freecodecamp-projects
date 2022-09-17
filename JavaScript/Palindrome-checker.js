@@ -14,7 +14,7 @@ We'll also pass strings with special symbols, such as 2A3*3a2, 2A3 3a2, and 2_A3
 let palindrome=(str)=> {
     let string = str.toLowerCase().replace(/\s|\.|\*|#|_|,|\\|\/|:|\-|\(|\)/g,"");
     let reverse = string.split("").reverse().join("");
-    return string===reverse;
+    return string === reverse;
   }
   
   let result = palindrome("2A3*3a2");
