@@ -241,10 +241,12 @@ function convertToRoman(num) {
       ans += "";
     }
   }
-
+else{
+  return "Please enter a number between 1 and 3999";
+}
   return ans.trim();
 }
-let result = convertToRoman(3838);
+let result = convertToRoman(2999);
 console.log(result);
 
 //any number from 1 to 3999  ...
