@@ -5,8 +5,5 @@ if(newCharCode<65){
 }
     return newCharCode;
 }
-result = String.fromCharCode(charCode("C"));
+ let result = String.fromCharCode(charCode("C"));
 console.log(result);
-//SERR=>FREE
-//PBQR=>CODE
-//PNZC=>CAMP

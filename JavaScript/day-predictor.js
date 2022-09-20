@@ -10,8 +10,7 @@ let weekdays={
 }
 let yearPredict = Number(yearOfTheDayToPredict);
 let arr=date.split("-");
-//let date_day=Number(arr[0]);
-//let month=Number(arr[1]);
+
 let year=Number(arr[2]);
 
 let age=()=>{
@@ -53,14 +52,13 @@ if(year>yearPredict){
 }
 
 
-if(weekdays.hasOwnProperty(day)){
    if(day_value<1){
     day_value= 7-(shift-weekdays[day]);
    }
-   if(day_value>7){
+   else if(day_value>7){
     day_value= day_value-7;
    }
-}
+
    let weekArr=(obj,value)=>{
     return Object.keys(obj).find(key=>{ return obj[key]===value});
 };
@@ -69,4 +67,4 @@ if(weekdays.hasOwnProperty(day)){
 return weekArr(weekdays,day_value);
 }
 
-console.log(datePredictor("8-2-1997","Saturday","2023"));
+console.log(datePredictor("15-7-2022","Friday","1992"));
