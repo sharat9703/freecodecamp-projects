@@ -4,4 +4,4 @@ let kthSmallestElement=(arr,k)=>{
 
     return arr1[k-1];
 }
-console.log(kthSmallestElement([23,43,546,234,432,123,44,41,34,54],5));
+console.log(kthSmallestElement([23,43,546,234,432,123,44,41,34,54],10));

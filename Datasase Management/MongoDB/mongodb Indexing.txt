@@ -1,0 +1,22 @@
+Indexing>>>
+use sample_training
+
+db.trips.find({ "birth year": 1989 })
+
+db.trips.find({ "start station id": 476 }).sort( { "birth year": 1 } )
+
+db.trips.createIndex({ "birth year": 1 }).....faster 
+
+db.trips.createIndex({ "start station id": 1, "birth year": 1 })
+
+
+/////////////////////////////
+
+Upsert   >>>>>>>>>>>>>>>
+
+db.iot.updateOne({ "sensor": r.sensor, "date": r.date,
+                   "valcount": { "$lt": 48 } },
+                         { "$push": { "readings": { "v": r.value, "t": r.time } },
+                        "$inc": { "valcount": 1, "total": r.value } },
+                 { "upsert": true })
+
